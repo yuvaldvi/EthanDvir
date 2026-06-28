@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" data-grain style="background:#0c0b0a">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="color-scheme" content="dark" />
+<title>Contact, Ethan Dvir</title>
+<meta name="description" content="Get in touch with Ethan Dvir, partnership enquiries, media and management. Email dvir.ethan@gmail.com." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600;700;800;900&family=Saira:wght@500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="icon" type="image/png" href="assets/favicon.png" />
+<link rel="apple-touch-icon" href="assets/favicon.png" />
+<!-- Social share (Open Graph + Twitter). When live, replace the two REPLACE-WITH-DOMAIN lines with your real URL e.g. https://ethandvir.com/ for full Facebook/LinkedIn support. -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Contact, Ethan Dvir" />
+<meta property="og:description" content="Get in touch with Ethan Dvir, partnership enquiries, media and management. Email dvir.ethan@gmail.com." />
+<meta property="og:image" content="assets/og-image.jpg" />
+<meta property="og:site_name" content="Ethan Dvir Motorsport" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Contact, Ethan Dvir" />
+<meta name="twitter:description" content="Get in touch with Ethan Dvir, partnership enquiries, media and management. Email dvir.ethan@gmail.com." />
+<meta name="twitter:image" content="assets/og-image.jpg" />
+<link rel="stylesheet" href="styles.css?v=5" />
+<script>(function(){try{var a=localStorage.getItem('ed3-accent');if(a)document.documentElement.style.setProperty('--accent-override',a);if(localStorage.getItem('ed3-grain')==='0')document.documentElement.removeAttribute('data-grain');if(localStorage.getItem('ed3-parallax')==='0')window.__noParallax=true;if(sessionStorage.getItem('ed-pt')==='1'){var _o=document.createElement('div');_o.id='pt';_o.className='pt pt-in';_o.setAttribute('style','position:fixed;inset:0;z-index:9999;background:#0c0b0a;overflow:hidden;pointer-events:none');_o.innerHTML='<div class="pt-panel"></div><div class="pt-logo"><img src="assets/logo-mark.png" alt=""/><span class="pt-word">Ethan Dvir</span><span class="pt-bar"></span></div>';document.documentElement.appendChild(_o);setTimeout(function(){var p=document.getElementById('pt');if(p&&!p.classList.contains('go')&&p.parentNode){p.parentNode.removeChild(p);}},2200);}}catch(e){}})();</script>
+</head>
+<body data-page="contact">
+
+<div class="grain"></div>
+
+<!-- ============ PAGE HEADER ============ -->
+<header class="pagehead glow tl" data-screen-label="Contact header">
+  <div class="wrap">
+    <p class="eyebrow"><span class="idx">05</span> &nbsp;Get in touch</p>
+    <h1 class="display">Let's talk 2027.</h1>
+    <p class="lead">Want the full partnership deck, media numbers and 2027 plan? Send a line, I'll get straight back to you.</p>
+  </div>
+</header>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact first" data-screen-label="Contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-copy">
+        <p class="eyebrow reveal">Direct</p>
+        <h2 class="display reveal" data-d="1">Reach me</h2>
+        <p class="reveal" data-d="2">For partnership, media or management enquiries, the fastest route is email or Instagram. Happy to jump on a call, send the full deck, or talk through ideas.</p>
+        <div class="contact-list reveal" data-d="2">
+          <a href="mailto:dvir.ethan@gmail.com"><span class="k">Email</span><span class="v">dvir.ethan@gmail.com</span></a>
+          <a href="https://www.instagram.com/ethandvir/" target="_blank" rel="noopener"><span class="k">Instagram</span><span class="v">@ethandvir</span></a>
+          <a href="tel:+34624442859"><span class="k">Phone</span><span class="v">+34 624 442 859</span></a>
+          <div><span class="k">Based</span><span class="v">British · racing in Spain</span></div>
+        </div>
+      </div>
+      <form class="form reveal" id="partnerForm" data-d="1">
+        <input type="hidden" name="access_key" value="0f927147-1e1c-4102-8d80-3c0e342abd58" />
+        <input type="hidden" name="subject" value="New partnership enquiry, ethandvir.com" />
+        <input type="hidden" name="from_name" value="Ethan Dvir Website" />
+        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+        <div class="row">
+          <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" type="text" placeholder="Your name" required /></div>
+          <div class="field"><label for="f-co">Company</label><input id="f-co" name="company" type="text" placeholder="Brand / company" /></div>
+        </div>
+        <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" placeholder="you@brand.com" required /></div>
+        <div class="field"><label for="f-msg">Message</label><textarea id="f-msg" name="message" placeholder="Tell me about your brand and what you're looking for…" required></textarea></div>
+        <button class="btn btn-primary" type="submit">Request partnership deck <span class="arr">→</span></button>
+        <p class="form-note" id="formNote">Or email directly, dvir.ethan@gmail.com</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script src="site.js?v=5"></script>
+<script>
+(function(){
+  var form=document.getElementById('partnerForm');
+  if(!form)return;
+  var note=document.getElementById('formNote');
+  var btn=form.querySelector('button[type="submit"]');
+  var EMAIL='dvir.ethan@gmail.com';
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var key=form.querySelector('[name="access_key"]').value;
+    var name=form.querySelector('[name="name"]').value.trim();
+    var company=form.querySelector('[name="company"]').value.trim();
+    var email=form.querySelector('[name="email"]').value.trim();
+    var msg=form.querySelector('[name="message"]').value.trim();
+    // Fallback: if no Web3Forms key set yet, open the visitor's email client pre-filled.
+    if(!key||key.indexOf('REPLACE_WITH')===0){
+      var body='Name: '+name+'%0D%0ACompany: '+company+'%0D%0AEmail: '+email+'%0D%0A%0D%0A'+encodeURIComponent(msg);
+      window.location.href='mailto:'+EMAIL+'?subject='+encodeURIComponent('Partnership enquiry, '+(company||name))+'&body='+body;
+      note.textContent='Opening your email app… if nothing happens, write to '+EMAIL;
+      return;
+    }
+    // Live: POST to Web3Forms
+    btn.disabled=true;var orig=btn.innerHTML;btn.textContent='Sending…';
+    fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(Object.fromEntries(new FormData(form)))})
+    .then(function(r){return r.json();})
+    .then(function(d){
+      if(d.success){form.reset();note.style.color='var(--accent)';note.textContent='Thanks, your message is in. I\u2019ll be in touch shortly.';btn.textContent='Sent ✓';}
+      else{throw new Error('fail');}
+    })
+    .catch(function(){
+      note.style.color='var(--accent)';note.innerHTML='Something went wrong, please email <a href="mailto:'+EMAIL+'">'+EMAIL+'</a>';
+      btn.disabled=false;btn.innerHTML=orig;
+    });
+  });
+})();
+</script>
+</body>
+</html>
