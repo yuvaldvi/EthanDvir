@@ -51,7 +51,7 @@
         '<a href="https://www.instagram.com/ethandvir/" target="_blank" rel="noopener">Instagram</a>' +
       '</div>' +
     '</div>' +
-    '<p class="footer-fine">&copy; 2026 Ethan Dvir Motorsport. British racing driver, 14 &mdash; racing in Spain, building toward a 2027 GR Cup Spain campaign. Partnership enquiries welcome. Liveries and logos shown are from testing and do not represent current commercial partnerships.</p>';
+    '<p class="footer-fine">&copy; 2026 Ethan Dvir Motorsport. British racing driver, 15 &mdash; racing in Spain, building toward a 2027 GR Cup Spain campaign. Partnership enquiries welcome. Liveries and logos shown are from testing and do not represent current commercial partnerships.</p>';
   document.body.appendChild(footer);
 
   // ---------- nav scrolled + progress ----------
